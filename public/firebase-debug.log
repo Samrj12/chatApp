@@ -1,0 +1,44 @@
+[debug] [2023-07-05T05:05:02.109Z] ----------------------------------------------------------------------
+[debug] [2023-07-05T05:05:02.111Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rudra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-05T05:05:02.112Z] CLI Version:   12.4.2
+[debug] [2023-07-05T05:05:02.112Z] Platform:      win32
+[debug] [2023-07-05T05:05:02.112Z] Node Version:  v18.12.1
+[debug] [2023-07-05T05:05:02.120Z] Time:          Tue Jul 04 2023 23:05:02 GMT-0600 (Mountain Daylight Time)
+[debug] [2023-07-05T05:05:02.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-05T05:05:02.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-05T05:05:02.177Z] > authorizing via signed-in user (rudrakshjadhav@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rudra\OneDrive\Desktop\MERN\chatApp\chat-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-05T05:05:54.563Z] Using project from CLI flag: chatapp-688c7
+[debug] [2023-07-05T05:05:54.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatapp-688c7 [none]
+[debug] [2023-07-05T05:05:54.842Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatapp-688c7 200
+[debug] [2023-07-05T05:05:54.842Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatapp-688c7 {"projectId":"chatapp-688c7","projectNumber":"1006060169809","displayName":"ChatApp","name":"projects/chatapp-688c7","resources":{"hostingSite":"chatapp-688c7","realtimeDatabaseInstance":"chatapp-688c7-default-rtdb"},"state":"ACTIVE","etag":"1_8d75d55b-7880-446a-9996-26125ca40272"}
+[info] i  Using project chatapp-688c7 (ChatApp) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
